@@ -1,0 +1,128 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  width: 100%;
+}
+
+.brand-name h1 {
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 80px;
+  gap: 50px;
+}
+
+.left-side {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  gap: 20px;
+  text-align: center;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.discover {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #D4AF37;
+}
+
+.our-story-title {
+  font-size: 3.5rem; 
+  font-weight: 900;
+  color: black;
+}
+
+.start-image {
+  width: 30px;
+  height: 30px;
+}
+
+.welcome {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  max-width: 500px;
+}
+
+.about-us {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #D4AF37;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+
+.right-side {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.right-side img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
